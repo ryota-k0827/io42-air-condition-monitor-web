@@ -1,0 +1,52 @@
+#wrapper {
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+}
+#contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#warning-msg {
+  text-align: center;
+  background-color: orange;
+  user-select: none;
+}
+#air-condition {
+  font-weight: bold;
+}
+#temperature-box, #humidity-box {
+  width: 200px;
+}
+#co2-box {
+  width: 400px;
+}
+
+.label {
+  font-size: 24px;
+}
+.output {
+  font-size: 48px;
+  font-weight: bold;
+}
+.label, .output {
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Arial Black';
+}
+h1 {
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: solid 1px;
+  text-align: center;
+}

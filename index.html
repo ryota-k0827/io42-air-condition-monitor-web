@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Air Condition Monitor</title>
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Air Condition</h1>
+    <div id="warning-msg">警告音の再生を許可するには、画面をクリック</div>
+    <p id="con-status">サーバー: 未接続</p>
+    <p id="update-date">更新日時: </p>
+    <p id="air-condition">空気の状態: </p>
+    <div id="contents">
+      <div id="temperature-box">
+        <!-- 気温 -->
+        <p id="temperature-label" class="label">気温</p>
+        <p id="temperature-output" class="output">-°C</p>
+      </div>
+      <div id="humidity-box">
+        <!-- 湿度 -->
+        <p id="humidity-label" class="label">湿度</p>
+        <p id="humidity-output" class="output">-%</p>
+      </div>
+      <div id="co2-box">
+        <!-- CO2 -->
+        <p id="co2-label" class="label">CO2</p>
+        <p id="co2-output" class="output">-ppm</p>
+      </div>
+    </div>
+    <div id="result"></div>
+  </div>
+</body>
+</html>
